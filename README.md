@@ -7,7 +7,7 @@ A set of invoke-toolkit tasks
 ### Use the plugin from `git`
 
 ```bash
-uv tool install invoke-toolkit --with git+https://github.com/YOUR_USERNAME/invoke-toolkit-quarto
+uv tool install invoke-toolkit --with git+https://github.com/D3f0/invoke-toolkit-quarto
 ```
 
 ### Use the plugin from a checkout
@@ -16,7 +16,7 @@ Note that if you already ran this step for other plugins, you may want
 to add the `--with` or `--with-editable` of other plugins.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/invoke-toolkit-quarto
+git clone https://github.com/D3f0/invoke-toolkit-quarto
 cd invoke-toolkit-quarto
 uv tool install invoke-toolkit --with-editable .
 ```
