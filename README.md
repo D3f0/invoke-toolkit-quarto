@@ -33,12 +33,14 @@ You should see a collection named `quarto` with the available tasks.
 
 ### Available Tasks
 
-- `quarto.hello` - Say hello
+- `quarto.preview` - Preview a Quarto document (renders as revealjs on `$PORT`)
+- `quarto.publish` - Publish a Quarto document to GitHub Pages
 
-Example:
+Examples:
 
 ```bash
-intk quarto.hello --name "Developer"
+intk quarto.preview
+intk quarto.publish
 ```
 
 ## License
